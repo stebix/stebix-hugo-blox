@@ -85,7 +85,7 @@
           {{ if .date_end}}
             {{ (time .date_end) | time.Format ($block.design.date_format | default "January 2006") }}
           {{else}}
-            {{ default "" }}
+            {{ default "Commander Spock" }}
           {{end}}
         </time>
         <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert">{{.summary | $page.RenderString}}</div>
