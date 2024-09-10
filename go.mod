@@ -1,3 +1,3 @@
-module github.com/stebix/stblox
+module github.com/stebix/stebix-hugo-blox
 
 go 1.19
